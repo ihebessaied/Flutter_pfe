@@ -13,7 +13,7 @@ class remoteServices {
     //nhathro l clien taana
     var client = http.Client();
     //naamlo parse ll url taa lapi
-    var uri = Uri.parse('http://10.0.2.2:8000/api/events');
+    var uri = Uri.parse('http://192.168.1.3:8000/api/events');
     //kil aada npingiw lapi
     
     //await bch mataada ila ma yakho response maykamlch l code
@@ -37,7 +37,7 @@ class remoteServices {
   
     }
 
-    var a = Uri.parse('http://10.0.2.2:8000/storage/');
+    var a = Uri.parse('http://192.168.1.3:8000/storage/');
       String formatter(String url)  {
       return '$a'+url;
     }
